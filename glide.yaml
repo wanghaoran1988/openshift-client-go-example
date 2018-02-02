@@ -1,0 +1,4 @@
+package: github.com/wanghaoran1988/openshift-client-go-example # e.g. github.com/foo/bar
+import:
+- package: github.com/openshift/client-go
+  #version: xxx #you can specify the version if needed
