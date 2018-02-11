@@ -50,7 +50,7 @@ func start() error {
 	fmt.Printf("There are %d builds in project %s\n", len(builds.Items), namespace)
 	// List names of all builds
 	for i, build := range builds.Items {
-		fmt.Sprintf("index %d: Name of the build: %s", i, build.Name)
+		fmt.Printf("index %d: Name of the build: %s", i, build.Name)
 	}
 
 	// get a specific build
